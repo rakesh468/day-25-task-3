@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+    min-height: 50px;
+    margin-top: 0px;
+    color: blanchedalmond;
+}
+.name{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.pic{
+   
+    width:300px;
+    opacity: 0.7;
+    margin-left: 15px;
+}
+.edit{
+    height:360px;
+    width:300px;
+    object-fit: cover;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+.details{
+    font-size: 18px;
+    text-align: left;
+    margin: 0px;
+    margin-left: 10px;
+}
+body{
+margin: 20px;
+background-color: rgb(114, 108, 100);
+font-family: 'Poppins', sans-serif;
+}
+.row{
+    background-color: rgb(114, 108, 100);
+}
+.title{
+    background-color: rgb(114, 108, 100);;
+}
+
+.pic:hover{
+    transition: all 0.2s;
+    transform: scalex(1.1);
+    opacity: 2;
+    
+}
